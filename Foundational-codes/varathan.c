@@ -1,9 +1,12 @@
 #include<stdio.h>
-void main()
-[
+void main(){
     int a, b, c;
-    printf("Enter Two Integer");
-    scanf("%d %d",&a,&b);
+    printf("Enter First Integer: ");
+    scanf("%d",&a); 
+    printf("Enter Second Integer: ");
+    scanf("%d",&b);
+
     c=a+b;
-    printf("the sum is c");
-]
+
+    printf("the sum is %d", c);
+}
