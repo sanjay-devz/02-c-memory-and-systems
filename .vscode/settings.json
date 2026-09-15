@@ -1,3 +1,4 @@
 {
-    "C_Cpp.default.compilerPath": "C:/gcc/bin/gcc.exe"
+    "C_Cpp.default.compilerPath": "C:/gcc/bin/gcc.exe",
+    "C_Cpp.errorSquiggles": "disabled"
 }
