@@ -6,7 +6,7 @@ void main(){
     printf("Enter Second Integer: ");
     scanf("%d",&b);
 
-    c=a-b;
+    c=a-b; 
 
     printf("the sum is %d", c);
     printf("The product of %d", d)
