@@ -1,26 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    int num, even_sum = 0, odd_sum = 0, last_digit = 0;
+	int n, power, ans = 1;
 
-    scanf("%d",&num);
+	scanf("%d %d",&n, &power);
 
-    for(int i = 1; i <= num; i++)
-    {
-        last_digit = num%10;
+	for(int i = 1; i <= power; i++)
+	{
+		ans = ans * n;
+	}
+	printf("%d",ans);
+	return 0;
 
-        if(last_digit%2 == 0)
-        {
-            even_sum++;
-        }
-        else
-        {
-            odd_sum++;
-        }
-        num = num/10;
-    }
-    printf("even: %d\n",even_sum);
-    printf("odd: %d", odd_sum);
-    
-    return 0;
 }
+
+		
+	
